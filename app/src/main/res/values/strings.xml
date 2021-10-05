@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mock1</string>
+    <string name="hint_id">Nhập ID</string>
+    <string name="hint_name">Nhập tên</string>
+    <string name="hint_category">Nhập loại</string>
+    <string name="hint_price">Nhập giá</string>
+    <string name="insert">Thêm</string>
+    <string name="update">Sửa tại ID</string>
+    <string name="delete">Xóa tại ID</string>
+    <string name="sort_by_name">Sắp xếp theo tên</string>
+    <string name="sort_by_price">Sắp xếp theo giá tiền</string>
+    <string name="find_by_name">Tìm kiếm theo tên</string>
+    <string name="find_price_greater_than_x">Tìm giá lớn hơn</string>
+    <string name="show_all_product">hiển thị phương tiện</string>
+    <string name="id">ID: %1$d</string>
+    <string name="name">Tên: %1$s</string>
+    <string name="category">Loại: %1$s</string>
+    <string name="price">Giá: %1$d VND</string>
+    <string name="enter_product">Tạo phương tiện mới</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="show_all">Hiển thị tất cả</string>
+</resources>

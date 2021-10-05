@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_show_all"
+        android:title="@string/show_all"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_update_by_id"
+        android:title="@string/update"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_by_id"
+        android:title="@string/delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_by_name"
+        android:title="@string/sort_by_name"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_by_price"
+        android:title="@string/sort_by_price"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_find_by_name"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/find_by_name"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/action_find_greater_price"
+        android:title="@string/find_price_greater_than_x"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_insert"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="@string/insert"
+        app:showAsAction="always" />
+
+</menu>
